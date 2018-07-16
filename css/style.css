@@ -1,36 +1,44 @@
-body
+/* default font size */
+body {
   font-size: 14px;
 }
 
+/* scrolling nav bar style */
 nav {
-  background color: yellow;
+  background-color: yellow;
   height: 100px;
   margin-top: -10px;
   position: fixed;
   width: 100%;
+}
 
-
+/* element dimensions*/
 section {
   margin: 0 auto;
   width: 60%;
 }
 
+/* scrolling text size */
 h1 {
-  font-family sans-serif;
+  font-family:sans-serif;
   font-size: 2em;
 }
 
+/* scrolling text style */
 .example, h3 {
   padding-top: 30px;
-  text-align center
+  text-align: center;
 }
 
+/* main text size */
 h3 {
   font-size: 1.3em;
 }
 
-.element {
+/* style for the text */
+.element, div {
   background-color: green;
   height: 100px;
-  margin 10px 0;
+  margin: auto: 10px 0;
   width: 100%;
+}
