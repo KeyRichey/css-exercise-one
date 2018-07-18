@@ -43,6 +43,7 @@ h3 {
   width: 100%;
 }
 
+/* Change background color of last three text boxes*/
 .element.color, div{
   background-color: hotpink;
 }
