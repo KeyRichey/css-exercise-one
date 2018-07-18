@@ -36,9 +36,13 @@ h3 {
 }
 
 /* style for the text */
-.element, div {
+.element, div{
   background-color: green;
   height: 100px;
   margin: auto: 10px 0;
   width: 100%;
+}
+
+.element.color, div{
+  background-color: hotpink;
 }
